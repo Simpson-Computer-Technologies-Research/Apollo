@@ -101,6 +101,10 @@ document.addEventListener('mousemove', (e) => {
     const DELTA_TIME = ELAPSED_TIME - PreviousElapsedTime;
     PreviousElapsedTime = ELAPSED_TIME;
 
+	// Make sure delta_time isn't to high, 
+	// if it is, the apollo statue and light glitches
+	if (DELTA_TIME > 0.1) return;
+
     // Establish X and Y constants
     const Y = (e.clientY / window.innerHeight - 0.4) * 9;
     const X = (e.clientX / window.innerWidth - 0.5) * 8;
@@ -108,13 +112,16 @@ document.addEventListener('mousemove', (e) => {
     // Move the light source
     MOVING_LIGHT.position.y -= (Y + MOVING_LIGHT.position.y - 2) * DELTA_TIME;
     MOVING_LIGHT.position.x += (X - MOVING_LIGHT.position.x) * 2 * DELTA_TIME;
-
-	// Move the statue position slightly
+	
+	// If the statue is out of place, reset the statues position
+	// to the middle of the screen
 	if (Math.abs(ApolloModel.position.z) > 0.1) {
-		ApolloModel.position.z = 0
-		ApolloModel.position.x = 0
-	} else {
-		ApolloModel.position.z -= ((Y * 0.015) + ApolloModel.position.z) * DELTA_TIME;
-    	ApolloModel.position.x += ((X * 0.015) - ApolloModel.position.x) * DELTA_TIME;
+		ApolloModel.position.set(0, 0, 0);
+	}
+
+	// Else, Move the apollo statue position slightly
+	else {
+		ApolloModel.position.z -= ((Y * 0.015) + ApolloModel.position.z) * (DELTA_TIME / 2);
+    	ApolloModel.position.x += ((X * 0.015) - ApolloModel.position.x) * (DELTA_TIME / 2);
 	}
 }, false)
