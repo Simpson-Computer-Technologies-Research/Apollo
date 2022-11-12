@@ -39,7 +39,7 @@ SUN_LIGHT.position.set(-100, 0, -100)
 SCENE.add(SUN_LIGHT)
 
 // The light that moves with the cursor
-const MOVING_LIGHT = new THREE.PointLight(0x88b2d9, 0.4, 3, 3)
+const MOVING_LIGHT = new THREE.PointLight(0x88b2d9, 1, 3, 3)
 MOVING_LIGHT.position.set(30, 3, 1.8)
 SCENE.add(MOVING_LIGHT)
 
