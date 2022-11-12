@@ -24,7 +24,7 @@
 <div id="wrapper" class="h-screen text-center flex items-center text-white justify-center flex-col relative z-10 pointer-events-none">
 	<h2 class="text-4xl font-thin tracking-[0.25em] italic m-9 point">Apollo</h2>
 	<h1 class="text-6xl font-thin m-3 tracking-[0.25em] mb-4">θεός των πάντων</h1>
-	<p class="text-lg font-thin m-3 tracking-[0.25em] w-[90rem]">Apollo is one of the Olympian deities in classical Greek and Roman religion and Greek and Roman mythology. The national divinity of the Greeks, Apollo has been recognized as a god of archery, music and dance, truth and prophecy, healing and diseases, the Sun and light, poetry, and more. One of the most important and complex of the Greek gods, he is the son of Zeus and Leto, and the twin brother of Artemis, goddess of the hunt. Seen as the most beautiful god and the ideal of the kouros (ephebe, or a beardless, athletic youth), Apollo is considered to be the most Greek of all the gods. Apollo is known in Greek-influenced Etruscan mythology as Apulu.</p>
+	<p class="text-lg font-thin m-3 tracking-[0.25em] mx-60">Apollo is one of the Olympian deities in classical Greek and Roman religion and Greek and Roman mythology. The national divinity of the Greeks, Apollo has been recognized as a god of archery, music and dance, truth and prophecy, healing and diseases, the Sun and light, poetry, and more. One of the most important and complex of the Greek gods, he is the son of Zeus and Leto, and the twin brother of Artemis, goddess of the hunt. Seen as the most beautiful god and the ideal of the kouros (ephebe, or a beardless, athletic youth), Apollo is considered to be the most Greek of all the gods. Apollo is known in Greek-influenced Etruscan mythology as Apulu.</p>
 </div>
 
 <!-- Custom Cursor -->
