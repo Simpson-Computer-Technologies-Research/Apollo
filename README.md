@@ -1,4 +1,4 @@
-# Apollo
+# Apollo ![Stars](https://img.shields.io/github/stars/realTristan/Apollo?color=brightgreen) ![Watchers](https://img.shields.io/github/watchers/realTristan/Apollo?label=Watchers)
 ![Capture](https://user-images.githubusercontent.com/75189508/201453347-ef8d050e-75f6-4701-b96a-a7c0d86db66e.PNG)
 
 # Inspiration
