@@ -1,8 +1,8 @@
 # Apollo
 
 # Inspiration
-Anderson Mancini's Beautiful Three Graces Design inspired me to make one similar for the god of everything; Apollo.
-Video @ https://www.youtube.com/watch?v=79EpgV2D50I
+- Anderson Mancini's Beautiful Three Graces Design inspired me to make one similar for the god of everything; Apollo.
+- Video: https://www.youtube.com/watch?v=79EpgV2D50I
 
 # License
 MIT License
