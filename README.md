@@ -2,8 +2,8 @@
 ![Capture](https://user-images.githubusercontent.com/75189508/201453347-ef8d050e-75f6-4701-b96a-a7c0d86db66e.PNG)
 
 # Inspiration
-- Anderson Mancini's Beautiful Three Graces Design inspired me to make one similar for the god of everything; Apollo.
-- Video: https://www.youtube.com/watch?v=79EpgV2D50I
+- Tom Bogner's Beautiful Three Graces Design inspired me to make one similar for the god of everything; Apollo.
+- Link: https://dribbble.com/shots/6767548-The-Three-Graces-Concept
 
 # License
 MIT License
