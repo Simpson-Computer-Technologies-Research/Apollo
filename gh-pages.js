@@ -2,7 +2,7 @@ import { publish } from 'gh-pages';
 
 publish('build', {
         branch: 'gh-pages',
-        repo: '.git repo',
+        repo: 'https://github.com/realTristan/Apollo.git',
         dotfiles: true,
         user: {
             name: 'Tristan Simpson',
